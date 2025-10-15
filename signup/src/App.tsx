@@ -47,7 +47,7 @@ function App() {
   // WHAT URL- =========================================
 
   try {
-    const response = await fetch("https://your-api-url.com/users", {
+    const response = await fetch("https://open-day-sheet-backend.onrender.com/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
