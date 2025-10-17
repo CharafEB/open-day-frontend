@@ -1,11 +1,9 @@
 // App.tsx
-import { useState } from "react";
-import "./App.css";
 
-import bub1 from "./assets/bub1.png";
-import bub2 from "./assets/bub2.png";
-import bub3 from "./assets/bub3.png";
-import robot from "./assets/Robot.png";
+import "./App.css"
+import { useState } from "react";
+
+
 
 function App() {
   const [formData, setFormData] = useState({
@@ -88,26 +86,26 @@ function App() {
         <main className="relative flex justify-center items-center flex-1 w-full my-8">
           {/* Left Bubble */}
           <img
-            src={bub1}
+            src="./src/assets/bub1.png"
             alt="Bubble 1"
             className="absolute left-[-80px] top-1/4 w-60 h-60 -translate-y-1/2 opacity-30 pointer-events-none float-right z-0"
           />
           {/* Sec Left Bubble */}
           <img
-            src={bub3}
+            src="./src/assets/bub3.png"
             alt="Bubble 3"
             className="absolute left-[-30px] top-7/8 w-30 h-30 -translate-y-1/2 opacity-30 pointer-events-none float-left z-0"
           />
 
           {/* Right Bubble */}
           <img
-            src={bub2}
+            src="./src/assets/bub2.png"
             alt="Bubble 2"
             className="absolute right-[-80px] top-1/2 w-40 h-40 -translate-y-1/2 opacity-30 pointer-events-none float-right z-0"
           />
           {/* Robot */}
           <img
-            src={robot}
+            src="./src/assets/Robot.png"
             alt="robot"
             className="absolute left-[90px] top-2/4 w-110 h-90 -translate-y-1/2 opacity-75 pointer-events-none float-left z-0"
           />
