@@ -35,12 +35,7 @@ function App() {
   e.preventDefault();
 
   // Create the JSON body
-  const userData = {
-    username: `${formData.firstName} ${formData.lastName}`,
-    email: formData.email,
-    major: formData.level,
-    interest: formData.interests.join(", "),
-  };
+
 
   // WHAT URL- =========================================
 
