@@ -1,7 +1,7 @@
 // App.tsx
 import { useState } from "react";
 import "./App.css";
-import logo from "./assets/HLogoPic.png";
+
 import bub1 from "./assets/bub1.png";
 import bub2 from "./assets/bub2.png";
 import bub3 from "./assets/bub3.png";
